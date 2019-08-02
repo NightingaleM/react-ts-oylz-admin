@@ -17,7 +17,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve"
+    "experimentalDecorators": true,
+    "jsx": "preserve",
+    "types": [
+      "react",
+      "react-dom"
+    ],
+    "baseUrl": "src"
   },
   "include": [
     "src"
